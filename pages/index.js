@@ -14,6 +14,8 @@ export default function Home() {
         <p>
           This is a test to deploy a Server Side Rendered blog.
           The post pages below return a Date() that should be computed on the server side. Disable JS in your browser and refresh to check the date is updating.
+          <br></br>
+          Here is the code <a href='https://github.com/mlgarchery/ssr-blog'>https://github.com/mlgarchery/ssr-blog</a>
         </p>
         <Link href='/posts/first-post'>First post</Link><br></br>
         <Link href='/posts/second-post'>Second post</Link>
